@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('/BG.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 420px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.container h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.container .input-bar{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: 30px 0;
+}
+
+.input-bar input{
+    width: 100%; 
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 30px;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-bar input::placeholder{
+
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+}
+
+.input-bar i{
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.container .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: 50px 10px;
+}
+
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.container .btn{
+    width: 100%;
+    height: 42px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.container .btn:hover{
+    background: rgb(41, 190, 248);
+    color: #fff;
+    transition: .4s;
+}
+
+.container .login-signup-link{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.login-signup-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.login-signup-link p a:hover{
+    text-decoration: underline;
+}
+
+.terms{
+    font-weight: 600;
+}
