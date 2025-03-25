@@ -4,4 +4,5 @@
 
 
 
-![Project preview](https://github.com/user-attachments/assets/b96ec2af-e8e2-44a8-a347-61e88f95dbd5)
+![Project preview](https://github.com/user-attachments/assets/3484b437-23d9-47a0-a493-b321fdb80add)
+
